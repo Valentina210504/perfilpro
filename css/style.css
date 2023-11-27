@@ -15,7 +15,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    padding: var(--padding-container)
+    padding: var(--padding-container);
 }
 
 /* person Front page */
@@ -25,7 +25,7 @@ body{
     height: 100vh;
     min-height: 600px;
     max-height: 800px;
-    position: relative;
+    position:relative;
      display: grid;
      grid-template-rows: 100px 1fr;
      color: #fff;
@@ -53,11 +53,12 @@ body{
 }
 .nav_link{
     margin-left: auto;
-    padding: 0;
+    padding: 10px;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+    z-index: 100;
 }
 .nav_items{
     list-style: none;
@@ -156,6 +157,7 @@ body{
 
 .options_picture{
     max-width: 500px;
+    margin-top: -100px;
 }
 
 .options_paragraph{
@@ -166,6 +168,7 @@ body{
 .options_img{
     width: 80%;
     display: block;
+    border-radius: 10px;
 }
 
 /* testimonys */
@@ -208,14 +211,16 @@ body{
 }
 
 .testimony_texts{
-    max-width: 700px;
+    max-width: 800px;
 }
 
 .testimony_course{
-    background-color: royalblue;
+    background-color: rgb(1, 40, 158);
     color: #fff;
     display: inline-block;
+    border-radius: 5px;
     padding: 5px;
+    margin: 5px;
 }
 
 .testimony_arrow{
