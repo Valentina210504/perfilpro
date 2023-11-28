@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendiendo js</title>
+</head>
+<!-- onload es para cargar la pagina -->
+<body onload=load_page()>
+    <h1>valentina prado</h1>
+    <label for="" id="blox_one"></label>
+    <label for="" id="blox_two"></label>
+    <br>
+    <!-- onlur -->
+    <input type="text" id="box_onblur" onblur="box_onblur()" placeholder="escriba1" size="30">
+    <button id="chance_color">Cambiar color</button>
+    <br><br>
+
+    <form id="form_register">
+        <label for="nombres">nombres=</label>
+        <!-- //onlur es para -->
+        <input type="text" name="name" id="nombres" size="30" placeholder="escriba aca" onblur="validate()">
+        <br>
+        <label for="apellidos">apellidos=</label>
+        <input type="text" name="" id="apellidos" size="30" placeholder="escriba aca">
+        <br>
+        <button type="submit"> registrese</button>
+        <button type="reset">limpiar</button>
+        <br>
+        <label id="validation"></label>
+
+    </form>
+
+   
+     <!-- codigo de js es mejor abajo del codigo,si e codigo de js es largo se demora en cargar la pagina -->
+     <!-- js -->
+      <!-- <script>
+        alert("valentina prado");
+         console.log("bienvenido");
+     </script> -->
+     
+    <script src="..//js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/functions.js"></script>
+    <!-- queryselector es para seleccionar elemento
+    submit=esta para formularios,tiene que ir dentro de esa etiqueta -->
+    <!-- onclick para hacer evento, -->
+</body>
+</html>
